@@ -1,5 +1,25 @@
 # React + TypeScript + Vite
 
+This template provides a minimal setup for getting started with React using Vite as the build tool, and TypeScript for type checking. It includes Hot Module Replacement (HMR) and some basic ESLint configuration.
+
+
+## Features
+
+- **React**: A powerful JavaScript library for building user interfaces, especially single-page applications.
+- **TypeScript**: A typed superset of JavaScript that helps with catching errors early and improving code maintainability.
+- **Vite + SWC**: A modern build tool offering fast builds and development server with HMR.
+- **Tailwind CSS**: A utility-first CSS framework for designing responsive and modern user interfaces.
+- **Componentization**: A structured approach to building reusable and maintainable components.
+- **State Management with `Redux`**: Simplifies state management with a more predictable and scalable approach than `useState` and we use it for a larger application to handle the states.
+- **Performance Optimization**:
+  - **`React.memo`**: Prevents unnecessary re-renders of components by memoizing them.
+  - **`useMemo`**: Memoizes expensive calculations to avoid redundant computations.
+- **Local Storage**: To save the cart data in-between the page refresh. Saving only cart data in my local storage
+- 
+
+
+# React + TypeScript + Vite
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
